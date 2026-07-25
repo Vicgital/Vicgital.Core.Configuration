@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<AssemblyName>Vicgital.Core.Configuration</AssemblyName>
+		<PackageId>Vicgital.Core.Configuration</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Vicgital</Authors>
+		<RepositoryUrl>https://github.com/vicgital/Vicgital.Core.Configuration</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageDescription>Shared .NET Library that manages application configuration, including environment-based settings or secret management.</PackageDescription>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.21.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.AzureAppConfiguration" Version="8.5.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.10" />
+	</ItemGroup>
+
+</Project>
