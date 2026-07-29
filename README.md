@@ -23,7 +23,6 @@ This package is published to the Vicgital GitHub Packages feed. A `nuget.config`
 </packageSources>
 ```
 
-Set the `GIT_PACKAGES_READ_ONLY_PAT` environment variable to a GitHub PAT with `read:packages` scope before restoring, then:
 
 ```
 dotnet add package Vicgital.Core.Configuration
